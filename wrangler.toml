@@ -3,6 +3,9 @@ name = "worker-portfolio"
 main = "src/index.js"
 compatibility_date = "2024-08-21"
 compatibility_flags = ["nodejs_compat"]
+kv_namespaces = [
+	{ binding = "visitorCounter", id = "d63db0998c4b4b0abfb248be11ce861d" }
+]
 
 # Automatically place your workloads in an optimal location to minimize latency.
 # If you are running back-end logic in a Worker, running it closer to your back-end infrastructure
